@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="vista/css/bootstrap.min.css" rel="stylesheet">
+        <link href="vista/css/bootstrapValidator.min.css" rel="stylesheet">
+        <link href="vista/css/bootstrap-select.min.css" rel="stylesheet" type="text/css"/>
+        <script src="vista/js/jquery/jquery-1.11.1.min.js"></script>
+        <script src="vista/js/bootstrap/bootstrap.min.js"></script>
+        <script src="vista/js/bootstrap/bootstrapValidator.min.js"></script>
+        <script src="vista/js/bootstrap/bootstrap-select.min.js" type="text/javascript"></script>
+        <script src="vista/js/funcionesLogin.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="barraNavegacion"></div>
+        
+
+
+        <!-- INICION DEl MODAL DE LOGIN -->
+        <div class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <form id="formLogin" class="form-signin form-horizontal">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h2 class="modal-title">Login</h2>
+                        </div>
+                        <div class="modal-body">
+                            <h3>Ingresar</h3>
+                            <br>
+                            <h4>  Nombre de Usuario:</h4>
+                            <input type="text" id="nombre_usuario" class="form-control" value="qwe" required autofocus>
+                            <h4>  Clave de Ingreso:</h4>
+                            <input type="password" id="clave" class="form-control" value="12345678" required>
+                        </div>
+                        <div class="modal-footer">
+                            <button id="btnIngresar" class="btn btn-lg btn-primary btn-block" type="button">Ingresar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- FIN DEl MODAL DE LOGIN -->
+
+    </body>
+</html>
